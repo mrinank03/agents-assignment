@@ -13,7 +13,7 @@ from datetime import datetime
 from io import StringIO
 from typing import List, Tuple
 
-from livekit.agents.voice.interruption_handler import (
+from livekit.agents.voice import (
     InterruptionHandler,
     InterruptionHandlerConfig,
 )
